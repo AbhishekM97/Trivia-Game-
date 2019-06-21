@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Trivia Game</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Totally trivial trivia!</h1>
+        <button id="start">start</button>
+        <div id="questions">    
+            <p id="time">Time remaining: 00:00</p>
+            <form id="TriviaGame" name="quiz">
+                <h2>Alfred Was the name of Batman's Butler</h2>
+                    <input type="radio" name="q1" value="true">true 
+                    <input type="radio" name="q1" value="false">false 
+                <br>
+                <h2>The average human body contains nine pints of blood</h2>
+                    <input type="radio" name="q2" value="true">true 
+                    <input type="radio" name="q2" value="false">false 
+                <br>
+                <h2>Water boils at 200 degrees fahrenheit</h2>
+                    <input type="radio" name="q3" value="true">true 
+                    <input type="radio" name="q3" value="false">false 
+                <br>
+                <h2>Mars is the closest planet to the sun</h2>
+                    <input type="radio" name="q4" value="true">true 
+                    <input type="radio" name="q4" value="false">false 
+                <br>
+                <h2>According to greek mythology Hera was the first woman on earth</h2>
+                    <input type="radio" name="q5" value="true">true 
+                    <input type="radio" name="q5" value="false">false 
+                <br>
+                <h2>72 percent of the earth is water</h2>
+                    <input type="radio" name="q6" value="true">true 
+                    <input type="radio" name="q6" value="false">false 
+                <br>
+                <h2>there is 8760 hours in a year</h2>
+                    <input type="radio" name="q7" value="true">true 
+                    <input type="radio" name="q7" value="false">false 
+                <br>
+                <h2>Philidelphia is known as the city of Brotherly Love</h2>
+                    <input type="radio" name="q8" value="true">true 
+                    <input type="radio" name="q8" value="false">false 
+                <br>
+                <h2>Jupiter is the fastest spinning planet in our solar system.</h2>
+                    <input type="radio" name="q9" value="true">true 
+                    <input type="radio" name="q9" value="false">false 
+                <br>
+                <h2>pigs can fly</h2>
+                    <input type="radio" name="q10" value="true">true 
+                    <input type="radio" name="q10" value="false">false 
+                <br>
+            </form>
+            <button id="submit">Submit</button>
+                <br>
+        </div>
+        <div id="endpage">
+            <h2 id="correct">Number of questions answered correct:</h2>
+            <br>
+            <h2 id="incorrect">Number of questions answered incorrect:</h2>
+            <br>
+        </div>
+    </div>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
